@@ -24,7 +24,42 @@
     font-display: swap;
 }
 
-body {
+a {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    text-decoration-line: none;
+    padding: 0px 42px;
+    font-size: 16px;
+    line-height: 26.25px;
+    text-align: center;
+}
+
+.link {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:rgba(52, 84, 122, 1);
+    text-decoration-line: none;
+    padding: 0px 42px 0px 0px;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(238, 239, 241, 1);
+    height: 700px;
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 79px 0px 0px 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
 }
