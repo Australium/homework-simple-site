@@ -33,6 +33,21 @@ header {
     padding: 79px 0px 146px 0px;
 }
 
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    margin-bottom: 166px;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+}
+
 a {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -51,21 +66,6 @@ a {
     text-decoration-line: none;
     padding: 0px;
     letter-spacing: 0.1em;
-}
-
-.container {
-    width: 1110px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.navbar {
-    margin-bottom: 166px;
-}
-
-li {
-    display: inline-block;
-    vertical-align: top;
 }
 
 h1 {
@@ -102,3 +102,33 @@ p {
     display: inline-block;
 }
 
+.wrapper {
+    background-color: rgba(249, 249, 249, 1);
+    padding: 119px 0px 100px 0px;
+}
+
+.desc {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    width: 403px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    text-align: center;
+}
