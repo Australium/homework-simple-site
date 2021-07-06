@@ -33,6 +33,11 @@ header {
     padding: 79px 0px 146px 0px;
 }
 
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
 .container {
     width: 1110px;
     margin-left: auto;
@@ -43,23 +48,11 @@ header {
     margin-bottom: 166px;
 }
 
-li {
+.main-list > li {
     display: inline-block;
-    vertical-align: top;
 }
 
-a {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 1);
-    text-decoration-line: none;
-    padding: 0px 0px 0px 42px;
-    font-size: 16px;
-    line-height: 26.25px;
-    letter-spacing: 0.1em;
-}
-
-.link {
+.list-link {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
     color:rgba(52, 84, 122, 1);
@@ -68,7 +61,16 @@ a {
     letter-spacing: 0.1em;
 }
 
-h1 {
+.link {
+    color: rgba(0, 0, 0, 1);
+    text-decoration-line: none;
+    padding: 0px 0px 0px 42px;
+    font-size: 16px;
+    line-height: 26.25px;
+    letter-spacing: 0.1em;
+}
+
+.heading {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
@@ -78,9 +80,7 @@ h1 {
     width: 541px;
 }
 
-p {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 400;
+.subject {
     color: rgba(114, 114, 114, 1);
     font-size: 16px;
     line-height: 26.25px;
@@ -89,17 +89,14 @@ p {
 }
 
 .button {
-    width: 225px;
-    height: 65px;
     background-color: rgba(52, 84, 122, 1);
     padding: 25px 41px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 400;
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
     line-height: 26.25px;
     text-align: center;
     display: inline-block;
+    text-decoration-line: none;
 }
 
 .wrapper {
@@ -131,4 +128,48 @@ h2 {
     margin-left: auto;
     margin-bottom: 0px;
     text-align: center;
+}
+
+.wrapper-two {
+    background-color: rgba(52, 84, 122, 1);
+    padding: 100px 0px 100px 0px;
+}
+
+.section {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    display: inline-block;
+    width: 141px;
+    height: 50px;
+    vertical-align: top;
+}
+
+.desc-card {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h3 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    font-size: 21px;
+    line-height: 24.61px;
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 20px;
+}
+
+h3 + p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 26.25px;
+    margin-bottom: 0px;
+    width: 0px;
+    padding: 0px 0px 0px 20px;
 }
