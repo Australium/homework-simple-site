@@ -29,10 +29,9 @@ a {
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
     text-decoration-line: none;
-    padding: 0px 42px;
+    padding: 0px 0px 0px 42px;
     font-size: 16px;
     line-height: 26.25px;
-    text-align: center;
 }
 
 .link {
@@ -40,12 +39,12 @@ a {
     font-weight: 500;
     color:rgba(52, 84, 122, 1);
     text-decoration-line: none;
-    padding: 0px 42px 0px 0px;
-    text-align: center;
+    padding: 0px;
 }
 
 header {
     background-color: rgba(238, 239, 241, 1);
+    padding: 79px 0px 0px 0px;
     height: 700px;
 }
 
@@ -53,11 +52,49 @@ header {
     width: 1110px;
     margin-left: auto;
     margin-right: auto;
-    padding: 79px 0px 0px 0px;
+}
+
+.navbar {
+    margin-bottom: 166px;
 }
 
 li {
     display: inline-block;
+    vertical-align: top;
+}
+
+h1 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    font-size: 48px;
+    line-height: 78.75px;
+    margin-bottom: 60px;
+    width: 541px;
+}
+
+p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+    font-size: 16px;
+    line-height: 26.25px;
+    width: 540px;
+    margin-bottom: 60px;
+}
+
+.button {
+    width: 225px;
+    height: 65px;
+    background-color: rgba(52, 84, 122, 1);
+    padding: 25px 41px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 26.25px;
+    text-align: center;
+    
 }
 
 * {
