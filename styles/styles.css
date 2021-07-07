@@ -120,11 +120,6 @@ body {
     padding: 100px 0px 100px 0px;
 }
 
-.card {
-    display: inline-block;
-    vertical-align: top;
-}
-
 .icon {
     margin-right: 20px;
     display: inline-block;
@@ -148,4 +143,14 @@ body {
 .card-text {
     color: rgba(255, 255, 255, 1);
     line-height: 16px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 45px;
+}
+
+.card:last-child {
+    margin-right: 0;
 }
