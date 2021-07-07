@@ -28,14 +28,16 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: rgba(238, 239, 241, 1);
-    padding: 79px 0px 146px 0px;
-}
-
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.header {
+    background-color: rgba(238, 239, 241, 1);
+    padding: 74px 0px 146px 0px;
 }
 
 .container {
@@ -43,60 +45,51 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
-.navbar {
-    margin-bottom: 166px;
-}
-
-.main-list > li {
+.item {
     display: inline-block;
-}
-
-.list-link {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    color:rgba(52, 84, 122, 1);
-    text-decoration-line: none;
-    padding: 0px;
-    letter-spacing: 0.1em;
-}
+    vertical-align: top;
+    margin-right: 42px;
+}    
 
 .link {
     color: rgba(0, 0, 0, 1);
     text-decoration-line: none;
-    padding: 0px 0px 0px 42px;
-    font-size: 16px;
-    line-height: 26.25px;
     letter-spacing: 0.1em;
 }
 
-.heading {
+.link.first {
+    font-weight: 500;
+    color:rgba(52, 84, 122, 1);
+}
+
+.navbar {
+    margin-bottom: 140px;
+}
+
+.subject {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
     font-size: 48px;
-    line-height: 78.75px;
-    margin-bottom: 60px;
+    line-height: 79px;
+    margin-bottom: 38px;
     width: 541px;
 }
 
-.subject {
+.desc {
     color: rgba(114, 114, 114, 1);
-    font-size: 16px;
-    line-height: 26.25px;
     width: 540px;
-    margin-bottom: 60px;
+    margin-bottom: 54px;
 }
 
 .button {
     background-color: rgba(52, 84, 122, 1);
-    padding: 25px 41px;
+    padding: 20px 41px 19px;
     color: rgba(255, 255, 255, 1);
-    font-size: 16px;
-    line-height: 26.25px;
-    text-align: center;
     display: inline-block;
+    vertical-align: top;
     text-decoration-line: none;
+    letter-spacing: 0.1em;
 }
 
 .wrapper {
@@ -104,7 +97,7 @@ body {
     padding: 119px 0px 100px 0px;
 }
 
-.desc {
+ {
     width: 1110px;
     margin-left: auto;
     margin-right: auto;
