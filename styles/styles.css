@@ -67,7 +67,6 @@ body {
 }
 
 .subject {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
     font-size: 48px;
@@ -98,7 +97,6 @@ body {
 }
 
 .about-me {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
     font-size: 32px;
@@ -117,46 +115,37 @@ body {
     margin-bottom: 0;
 }
 
-.wrapper-two {
+.wrap-card {
     background-color: rgba(52, 84, 122, 1);
     padding: 100px 0px 100px 0px;
 }
 
-.section {
-    width: 1110px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .card {
     display: inline-block;
-    width: 141px;
-    height: 50px;
     vertical-align: top;
 }
 
-.desc-card {
+.icon {
+    margin-right: 20px;
     display: inline-block;
     vertical-align: top;
 }
 
-h3 {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+.card-desc {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3px;
+}
+
+.card-title {
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
     font-size: 21px;
-    line-height: 24.61px;
-    margin-bottom: 10px;
-    padding: 0px 0px 0px 20px;
+    line-height: 21px;
+    margin-bottom: 8px;
 }
 
-h3 + p {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 400;
+.card-text {
     color: rgba(255, 255, 255, 1);
-    font-size: 16px;
-    line-height: 26.25px;
-    margin-bottom: 0px;
-    width: 0px;
-    padding: 0px 0px 0px 20px;
+    line-height: 16px;
 }
