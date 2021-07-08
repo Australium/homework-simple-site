@@ -1,11 +1,7 @@
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/dehinted-subset-Roboto-Medium.eot');
-    src: url('../fonts/dehinted-subset-Roboto-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/dehinted-subset-Roboto-Medium.woff2') format('woff2'),
-        url('../fonts/dehinted-subset-Roboto-Medium.woff') format('woff'),
-        url('../fonts/dehinted-subset-Roboto-Medium.ttf') format('truetype'),
-        url('../fonts/dehinted-subset-Roboto-Medium.svg#Roboto-Medium') format('svg');
+    src: url('../fonts/dehinted-subset-Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/dehinted-subset-Roboto-Medium.woff2') format('woff2'), url('../fonts/dehinted-subset-Roboto-Medium.woff') format('woff'), url('../fonts/dehinted-subset-Roboto-Medium.ttf') format('truetype'), url('../fonts/dehinted-subset-Roboto-Medium.svg#Roboto-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -14,11 +10,7 @@
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/dehinted-subset-Roboto-Regular.eot');
-    src: url('../fonts/dehinted-subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/dehinted-subset-Roboto-Regular.woff2') format('woff2'),
-        url('../fonts/dehinted-subset-Roboto-Regular.woff') format('woff'),
-        url('../fonts/dehinted-subset-Roboto-Regular.ttf') format('truetype'),
-        url('../fonts/dehinted-subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
+    src: url('../fonts/dehinted-subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/dehinted-subset-Roboto-Regular.woff2') format('woff2'), url('../fonts/dehinted-subset-Roboto-Regular.woff') format('woff'), url('../fonts/dehinted-subset-Roboto-Regular.ttf') format('truetype'), url('../fonts/dehinted-subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -45,11 +37,12 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .item {
     display: inline-block;
     vertical-align: top;
     margin-right: 42px;
-}    
+}
 
 .link {
     color: rgba(0, 0, 0, 1);
@@ -59,7 +52,7 @@ body {
 
 .link.first {
     font-weight: 500;
-    color:rgba(52, 84, 122, 1);
+    color: rgba(52, 84, 122, 1);
 }
 
 .navbar {
@@ -107,7 +100,7 @@ body {
     margin-right: auto;
 }
 
-.desc.about{
+.desc.about {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -168,4 +161,23 @@ body {
     height: 600px;
     border: 0;
     margin-bottom: -8px;
+}
+
+.footer {
+    background-color: rgba(52, 84, 122, 1);
+    padding: 47px 0px 45px 0px;
+}
+
+.author {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
 }
