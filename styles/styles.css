@@ -160,7 +160,7 @@ body {
     width: 1110px;
     height: 600px;
     border: 0;
-    margin-bottom: -8px;
+    display: block;
 }
 
 .footer {
